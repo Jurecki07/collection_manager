@@ -47,11 +47,8 @@ app.post("/footballteam", function (req, res) {
             res.send(savedFootballTeam);
         })
         .catch(function (err) {
-            res.status(500).send(err);
-        });
-
+            res.status(500).send(err);});
 });
-
 app.get("/footballteam", function (req, res) {
     FootBall.find()
         .then(function (footballTeam) {
@@ -63,9 +60,25 @@ app.get("/footballteam", function (req, res) {
             res.status(500).send(err);});
 });
 
-
+// Add By Id
     app.get("/footballteam/:id", function (req, res) {
-FootBall.find
+        FootBall.findById(req.params.id)
+            .then(function (footballTeam) {
+                if (!footballTeam) {
+                    return res.send({ msg: "No FootBall Team Found" });}
+                res.send(footballTeam);});
+    });
+app.put("/footballteam/:id", function (req, res) {
+    FootBall.findByIdAndUpdate(req.params.id, req.body)
+        .then(function (footballTeamupdate) {
+            if (!footballTeamupdate) {
+                return res.send({ msg: "Unable To Update Team" });}
+            res.send(footballTeamupdate);})
+        .catch(function (err) {
+            res.status(500).send(err);});
+});
+
+// Delete By ID
 
 
 
