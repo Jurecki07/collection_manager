@@ -26,7 +26,7 @@ let det = {
 
 };
 
-let newFootBall = new FootBall(det);
+//let newFootBall = new FootBall(det);
 
 newFootBall
   .save()
@@ -36,6 +36,21 @@ newFootBall
   .catch(function(err) {
     console.log(err);
   });
+
+app.post("/footballteam", function (req, res) {
+    console.log(req.body);
+    let newFootBallTeam = new Team (req.body);
+
+    newFootBallTeam
+        .save()
+        .then(function (savedFootballTeam) {
+            res.send(savedFootballTeam);})
+        .catch(function (err)
+        {res.status(500).send(err);
+        });
+
+    app.get("/footballteam/:id", function (req, res) {
+
 
 
 
