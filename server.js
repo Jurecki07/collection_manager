@@ -79,6 +79,22 @@ app.put("/footballteam/:id", function (req, res) {
 });
 
 // Delete By ID
+app.delete("/footballteam/:id", function (req, res) {
+    FootBall.findByIdAndRemove(req.params.id)
+        .then(function (unabletofind) {
+            res.send(unabletofind);
+        })
+        .catch(function (err) {
+            res.status(500).send(err);
+        });
+});
+app.delete("/footballteam", function (req, res) {
+    FootBall.remove()
+        .catch(function (err) {
+            res.status(500).send(err);
+        });
+});
+
 
 
 

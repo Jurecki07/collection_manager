@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5292b90c-83de-42f4-9d04-459802e574ab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="FootBall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/FootBall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -36,8 +37,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-250">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -56,8 +57,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+            <state relative-caret-position="460">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -153,12 +154,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508186577134</updated>
-      <workItem from="1508186579327" duration="1866000" />
+      <workItem from="1508186579327" duration="2868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1866000" />
+    <option name="totallyTimeSpent" value="2868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="24" width="1173" height="1093" extended-state="0" />
@@ -199,25 +200,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-250">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/FootBall.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -225,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
           <folding />
         </state>
       </provider>
